@@ -16,41 +16,50 @@
 </head>
 
 <body background="assets/images/white-waves.png">
-
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <ul class="nav nav-pills">
-                        <li role="presentation"><a href="#">Home</a></li>
-                        <li role="presentation" class= "active"><a href="#">Portfolio</a></li>
-                        <li role="presentation"><a href="#">Contact</a></li>
-                    </ul>
-                </div>    
-            </div>
-        </nav>
- 
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#">Home</a></li>
+                    <li role="presentation" class= "active"><a href="#">Portfolio</a></li>
+                    <li role="presentation"><a href="#">Contact</a></li>
+                </ul>
+            </div>    
+        </div>
+    </nav>
     <div class="container main-content">   
-        <div clas="col-md-10">
-            <div class="">
+        <div class="row main-content">
+            <div class="port-header">
                 <h2>My Portfolio</h2>
             </div>
-            <div class="portfolio-items col-md-8">
-                <div class="col-sm-12 col-md-6 col-lg-4" style="background-image: url('https://picsum.photos/200/300'); max-width: 200px; min-height: 100px;">
-                    <h4>Item 1</h4>
+            <div class="col-sm-12 col-md-4">
+                <div class="port-item">
+                    <img src="assets/images/gardenstat.jpg" alt="Mountains" class="img-fluid">
+                    <h3>Project 1</h3>
+                    <p>Here is a description about my first project</p>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4" style="background-image: url('https://picsum.photos/200/300'); max-width: 200px; min-height: 100px;">
-                    <h4>Item 2</h4>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="port-item">
+                    <img src="assets/images/flamingosd.jpg" alt="Lights" class="img-fluid">
+                    <h3>Project 2</h3>
+                    <p>Here is a description about my second project</p>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4" style="background-image: url('https://picsum.photos/200/300'); max-width: 200px; min-height: 100px;">
-                    <h4>Item 3</h4>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="port-item">
+                    <img src="assets/images/catran.jpg" alt="Nature" class="img-fluid">
+                    <h3>Project 3</h3>
+                    <p>Here is a description about my third project</p>
                 </div>
+            </div>    
+        </div>
+    
+        <div class="navbar navbar-fixed-bottom">
+            <div class="footer navbar-inner">
+                    <p>Copyright 2019</p>
             </div>
         </div>
     </div>
-    
-    <div class="footer fixed-bottom">
-            <p>Copyright 2019</p>
-    </div>
-
 </body>
 </html>
