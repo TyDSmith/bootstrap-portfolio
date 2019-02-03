@@ -24,8 +24,13 @@
 .port-item img{
 height: auto;
 max-width: 100%;
-
 }
+
+.profile-picture{
+float: left;
+margin: 5px;
+}
+
 /*====Footer====*/
 
 .footer{
