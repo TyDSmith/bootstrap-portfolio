@@ -1,0 +1,23 @@
+
+
+
+/*====Main Content====*/
+.main-content{
+    background: lightgray;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/*====Footer====*/
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px 10px;
+    margin: auto;
+    background: lightcyan;
+    text-align: center;
+    border-top: solid 1px lightgray;
+}
