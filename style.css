@@ -7,6 +7,9 @@
     margin-bottom: 25px;
 }
 
+.main-content-contact{
+    min-height: 75%;
+}
 .port-header h2{
     text-align: center;
 }
@@ -38,3 +41,15 @@ margin: 5px;
     text-align: center;
     border-top: solid 1px lightgray;
 }
+
+/*====Contact form====*/
+
+input[type=text]:focus, input[type=email]:focus  {
+    border: 3px solid #555;
+  }
+input.large-text-input{
+min-height: 85px;
+}
+.btn-contact{
+     margin-bottom: 20px;
+ }
